@@ -26,6 +26,7 @@ Encore
 
     // uncomment to define the assets of the project
     .addEntry('js/app', './assets/js/app.js')
+    .addEntry('js/web-cola-test', './assets/js/web-cola-test.js')
     .addStyleEntry('css/app', './assets/scss/app.scss')
 
     // .addStyleEntry('vendors', [
@@ -38,6 +39,8 @@ Encore
         'jquery',
         'boosted',
         'bootstrap-datepicker',
+        'd3',
+        'webcola',
 
         'boosted/dist/css/boosted2015.css',
         'boosted/dist/css/boostedIE82015.css',
@@ -47,11 +50,6 @@ Encore
         'boosted/dist/css/orangeIcons.css',
 
         'bootstrap-datepicker/dist/css/bootstrap-datepicker.css'
-
-        // './assets/css/jquery.dataTables.css'
-
-
-
     ])
 ;
 

@@ -3,9 +3,11 @@
     "@symfony/webpack-encore": "^0.17.1",
     "boosted": "^3.3.3",
     "bootstrap-datepicker": "^1.7.1",
+    "d3": "^3.5.12",
     "jquery": "^3.2.1",
     "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6"
+    "sass-loader": "^6.0.6",
+    "webcola": "^3.3.6"
   },
   "scripts": {
     "dev-server": "encore dev-server",

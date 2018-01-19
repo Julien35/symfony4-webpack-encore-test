@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <main class="container">
+        <h1>Disconnected graph with non-overlap constraints</h1>
+        <section id="web-cola-test"></section>
+    </main>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ asset('build/js/web-cola-test.js') }}"></script>
+{% endblock %}
+
