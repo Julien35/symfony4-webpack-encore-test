@@ -884,15 +884,15 @@ boom@5.x.x:
   dependencies:
     hoek "4.x.x"
 
-boosted@^3.3.3:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/boosted/-/boosted-3.3.3.tgz#e1fff231e12b2ba526ef9450c5863b59bd79549f"
-
 bootstrap-datepicker@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/bootstrap-datepicker/-/bootstrap-datepicker-1.7.1.tgz#4ee7faf34888dbec7834fbf9dbe7c4277e01ddaf"
   dependencies:
     jquery ">=1.7.1 <4.0.0"
+
+bootstrap@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.0.0.tgz#ceb03842c145fcc1b9b4e15da2a05656ba68469a"
 
 brace-expansion@^1.1.7:
   version "1.1.8"
@@ -3974,6 +3974,10 @@ pkg-up@^1.0.0:
   resolved "https://registry.yarnpkg.com/pkg-up/-/pkg-up-1.0.0.tgz#3e08fb461525c4421624a33b9f7e6d0af5b05a26"
   dependencies:
     find-up "^1.0.0"
+
+popper.js@^1.12.9:
+  version "1.12.9"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.12.9.tgz#0dfbc2dff96c451bb332edcfcfaaf566d331d5b3"
 
 portfinder@^1.0.9:
   version "1.0.13"

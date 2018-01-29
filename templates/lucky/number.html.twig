@@ -19,108 +19,24 @@
             aliquip ex ea commodo consequat.
         </div>
 
-        <div class="row col-wrap">
-            <div class="col-md-6 col" id="first">
-                <div class="info-block">
-
-                    <h1 id="search" class="h2">search</h1>
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li class="active"><a href="#users" data-toggle="tab">Users</a></li>
-                        <li><a href="#devices" data-toggle="tab">Devices</a></li>
-                        <li><a href="#messages" data-toggle="tab">Messages</a></li>
-                        <li class="hide-when-small"><a href="#other" data-toggle="tab">Other</a></li>
-                    </ul>
-                    <div class="tab-content">
-                        <div class="tab-pane active" id="users">
-                            <form id="search-users" name="searchUsers" method="post" action="/" class="form-horizontal">
-                                <div class="form-group">
-                                    <label for="phone" class="col-sm-2 control-label">Phone <span class="star">*</span>
-                                    </label>
-                                    <div class="col-sm-10">
-                                        <input class="form-control required" required="" aria-required="true"
-                                               name="phone"
-                                               id="phone" maxlength="3" type="tel">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="pro_check" class="col-sm-2 control-label">Pro ? <span
-                                                class="star">*</span>
-                                    </label>
-                                    <div class="col-sm-10 checkbox">
-                                        <input id="pro_check" type="checkbox" class="o-checkbox">
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="location" class="col-sm-2 control-label">Location <span
-                                                class="star">*</span></label>
-                                    <div class="col-sm-10">
-                                        <select class="valid form-control" id="location" name="location">
-                                            <option value="AF"> Afghanistan</option>
-                                            <option value="AL"> Albania</option>
-                                            <option value="DZ"> Algeria</option>
-                                            <option value="AS"> American Samoa</option>
-                                            <option value="AD"> Andorra</option>
-                                            <option value="AO"> Angola</option>
-                                            <option value="AI"> Anguilla</option>
-                                            <option value="AQ"> Antarctica</option>
-                                            <option value="AG"> Antigua and Barbuda</option>
-                                            <option value="AR"> Argentina</option>
-                                            <option value="AM"> Armenia</option>
-                                            <option value="AW"> Aruba</option>
-                                            <option value="AU"> Australia</option>
-                                            <option value="AT"> Austria</option>
-                                            <option value="AZ"> Azerbaijan</option>
-                                            <option value="BS"> Bahamas</option>
-                                            <option value="OT"> ...</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="center">
-                                    <button type="submit" class="btn btn-primary">search</button>
-                                </div>
-                            </form>
-
-                        </div>
-                        <div class="tab-pane" id="devices">
-                            <form id="search-devices" name="searchDevices" method="post" action="/"
-                                  class="form-horizontal">
-                                <div class="form-group">
-                                    <label for="mac" class="col-sm-2 control-label">MAC <span class="star">*</span>
-                                    </label>
-                                    <div class="col-sm-10">
-                                        <input class="form-control required" required="" aria-required="true" name="mac"
-                                               id="mac" maxlength="10" type="text">
-                                    </div>
-                                </div>
-                                <div class="center">
-                                    <button type="submit" class="btn btn-primary">search</button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="tab-pane" id="messages">
-                            <form id="search-messages" name="searchMesages" method="post" action="/"
-                                  class="form-horizontal">
-                                <div class="input-group">
-                                    <span class="input-group-addon">@</span>
-                                    <input type="text" class="form-control" placeholder="regexp"
-                                           title="found a message by regexp">
-                                </div>
-                                <div class="center">
-                                    <button type="submit" class="btn btn-primary">search</button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="tab-pane hide-when-small" id="other">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </div>
-                    </div>
+        <article>
+            <form class="form-signin">
+                <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72"
+                     height="72">
+                <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+                <label for="inputEmail" class="sr-only">Email address</label>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <div class="checkbox mb-3">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
                 </div>
-            </div>
-        </div>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+            </form>
+        </article>
     </main>
 
 {% endblock %}

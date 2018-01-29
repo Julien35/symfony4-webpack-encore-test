@@ -37,18 +37,13 @@ Encore
     // these modules will *not* be included in page1.js or page2.js anymore
     .createSharedEntry('vendors', [
         'jquery',
-        'boosted',
+        'popper.js',
+        'bootstrap',
         'bootstrap-datepicker',
         'd3',
         'webcola',
 
-        'boosted/dist/css/boosted2015.css',
-        'boosted/dist/css/boostedIE82015.css',
-        'boosted/dist/css/bootstrap-orange2015.css',
-        'boosted/dist/css/bootstrap-orangeIE82015.css',
-        'boosted/dist/css/orangeHelvetica.css',
-        'boosted/dist/css/orangeIcons.css',
-
+        'bootstrap/scss/bootstrap.scss',
         'bootstrap-datepicker/dist/css/bootstrap-datepicker.css'
     ])
 ;
